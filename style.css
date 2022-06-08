@@ -1379,7 +1379,7 @@ label {
 
 .hero-copy {
   position: relative;
-  z-index: 1
+  z-index: 0
 }
 
 .hero-cta {
@@ -1637,8 +1637,8 @@ label {
 
   .hero-copy {
     padding-right: 64px;
-    min-width: 552px;
-    width: 552px
+    min-width: 1200px;
+    width: 1200px
   }
 
   .hero-cta {
