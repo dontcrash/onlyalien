@@ -355,7 +355,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "IBM Plex Sans", sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 a {
@@ -597,7 +597,7 @@ pre .h3,
 pre .h4,
 pre .h5,
 pre .h6 {
-  font-family: "Courier 10 Pitch", Courier, monospace
+  font-family: Helvetica, sans-serif;
 }
 
 pre,
@@ -623,7 +623,7 @@ code,
 kbd,
 tt,
 var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   padding: 2px 4px
 }
