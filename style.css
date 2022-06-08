@@ -388,7 +388,7 @@ main {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 250ms;
+  transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
   z-index: 1;
@@ -406,8 +406,8 @@ main {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition-delay: 0.25s;
-  transition: all 0.25s ease-in-out;
+  transition-delay: 0.5s;
+  transition: all 0.5s ease-in-out;
   z-index: 1;
 }
 
