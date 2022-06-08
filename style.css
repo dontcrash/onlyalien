@@ -388,7 +388,7 @@ main {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 550ms;
+  transition: opacity 250ms;
   visibility: hidden;
   opacity: 0;
   z-index: 1;
