@@ -233,8 +233,8 @@ p {
 
 .hero {
   text-align: center;
-  padding-top: 20vh;
-  padding-bottom: 10px
+  padding-top: 15vh;
+  padding-bottom: 5px
 }
 
 .hero-copy {
@@ -259,12 +259,6 @@ p {
 }
 
 @media (min-width:641px) {
-  .hero {
-    text-align: left;
-    padding-top: 64px;
-    padding-bottom: 88px
-  }
-
   .hero-inner {
     display: flex;
     justify-content: space-between;
@@ -326,8 +320,8 @@ main {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10px;
-  padding-bottom: 28px
+  padding-top: 5px;
+  padding-bottom: 20px
 }
 
 .footer-copyright,
@@ -344,13 +338,13 @@ main {
 
 @media (min-width:641px) {
   .site-footer {
-    margin-top: 20px
+    margin-top: 10px
   }
 
   .site-footer-inner {
     justify-content: space-between;
-    padding-top: 64px;
-    padding-bottom: 64px
+    padding-top: 5px;
+    padding-bottom: 20px
   }
 
   .footer-copyright,
