@@ -210,31 +210,31 @@ p {
   align-items: center
 }
 
-@media (min-width:641px) {
-  .site-header {
-    position: relative
-  }
 
-  .site-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background: #242830;
-    background: linear-gradient(80deg, rgba(36, 40, 48, .5) 0, rgba(36, 40, 48, 0) 100%);
-    -webkit-transform-origin: 0;
-    transform-origin: 0;
-    -webkit-transform: skewY(-12deg);
-    transform: skewY(-12deg)
-  }
+.site-header {
+  position: relative
 }
+
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: #242830;
+  background: linear-gradient(80deg, rgba(36, 40, 48, .5) 0, rgba(36, 40, 48, 0) 100%);
+  -webkit-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-transform: skewY(-12deg);
+  transform: skewY(-12deg)
+}
+
 
 .hero {
   text-align: center;
   padding-top: 20vh;
-  padding-bottom: 88px
+  padding-bottom: 10px
 }
 
 .hero-copy {
@@ -326,23 +326,19 @@ main {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 48px;
-  padding-bottom: 48px
+  padding-top: 10px;
+  padding-bottom: 28px
 }
 
-.footer-brand,
 .footer-copyright,
-.footer-links,
-.footer-social-links {
+.footer-links {
   flex: none;
   width: 100%;
   display: inline-flex;
   justify-content: center
 }
 
-.footer-brand,
-.footer-links,
-.footer-social-links {
+.footer-links {
   margin-bottom: 24px
 }
 
@@ -357,20 +353,17 @@ main {
     padding-bottom: 64px
   }
 
-  .footer-brand,
   .footer-copyright,
-  .footer-links,
-  .footer-social-links {
+  .footer-links {
     flex: 50%
   }
 
-  .footer-brand,
+
   .footer-copyright {
     justify-content: flex-start
   }
 
-  .footer-links,
-  .footer-social-links {
+  .footer-links {
     justify-content: flex-end
   }
 
@@ -379,7 +372,6 @@ main {
     margin-bottom: 0
   }
 }
-
 
 .overlay {
   position: fixed;
